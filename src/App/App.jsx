@@ -1,5 +1,5 @@
 import { QueryClient, QueryClientProvider } from "react-query";
-import { createBrowserRouter, createHashRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Layout from "../components/Layout/Layout.jsx";
 import Landing from "../screens/Landing/Landing.jsx";
@@ -22,7 +22,7 @@ import { useEffect } from "react";
 import { getItem } from "../core/services/common/storage.services.js";
 import { onTokenChange } from "../redux/user.js";
 
-const router = createHashRouter([
+const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout />,

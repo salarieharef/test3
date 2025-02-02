@@ -21,7 +21,7 @@ const Landing = () => {
         className="md:flex justify-center gap-x-6"
       >
         <div className="  md:w-2/5 w-full">
-          <img src="./big.png" alt="jdth" className="md:pt-20 lg:pt-0" />
+          <img src="./assets/big2.png" alt="jdth" className="md:pt-20 lg:pt-0" />
         </div>
 
         <div className="md:mr-24  md:pt-32 md:w-1/3 w-full px-6 text-center md:text-right lg:pt-32">
